@@ -6,7 +6,7 @@ import courseApi from '../api/mockCourseApi';
 } */
 
 export function loadCoursesSuccess(course){
-    return { type: types.LOAD_COURSES_SUCCESS, course};
+    return { type: types.LOAD_COURSES_SUCCESS, course };
 }
 
 export function loadCourses(){
