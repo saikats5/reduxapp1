@@ -16,3 +16,5 @@ Redux Async Libraries
 redux-thunk
 redux-promise
 redux-saga
+
+thunk always returns a function that only accepts dispatch
