@@ -9,7 +9,7 @@ import { loadCourses } from './actions/courseActions';
 //import './styles/styles.css';
 
 const store = configureStore();
-store.dispatch(loadCourses());
+//store.dispatch(loadCourses());
 
 render(
     <Provider store={store}>

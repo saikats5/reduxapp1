@@ -12,9 +12,10 @@ bind in render is performance issue as it creates a function everytime the compo
 
 dispatch will not be added to props by Connect when we add mapDispatchToProps parameter
 
-Redux Async Libraries
+Redux Async Libraries-middleware(action -> middleware -> reducer)
 redux-thunk
 redux-promise
+redux-observable
 redux-saga
 
-thunk always returns a function that only accepts dispatch
+// thunk is a computer science term // thunk always returns a function that only accepts dispatch // todelay function
