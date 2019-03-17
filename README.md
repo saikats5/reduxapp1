@@ -1,5 +1,8 @@
 # reduxapp1
 
+<Link to="/">Home</Link>
+<NavLink to="/" exact activeClassName="current">Home</NavLink>
+
 https://github.com/coryhouse/pluralsight-redux-starter
 
 Number, String, Boolean, Undefined, Null --> Immutable
